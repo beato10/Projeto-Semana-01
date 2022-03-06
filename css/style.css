@@ -1,0 +1,91 @@
+body {
+  background: rgb(13, 206, 100);
+}
+
+#container {
+  margin: 30px auto;
+  padding: 15px;
+}
+
+#form-card {
+  background: white;
+  max-width: 300px;
+  margin: auto;
+  padding: 1.1em;
+}
+
+#form-card img {
+  height: 20%;
+  width: 20%;
+}
+
+#form-card h1 {
+  display: inline;
+  text-align: center;
+  color: rgb(16, 201, 161);
+}
+
+#form-card p { 
+  text-align: center;
+  margin-top: 1px;
+  color: rgb(46, 154, 187);
+}
+
+#form-card .form-group {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1em;
+}
+
+#form-card .form-group label {
+  display: block;
+  max-width: 50%;
+  margin: 0;
+  color: rgb(0, 255, 170);
+  font-weight: bold;
+}
+
+#form-card .form-group input {
+  font-style: italic;
+  border-radius: 0.5em;
+  border-style: solid;
+  background-color: rgb(46, 154, 187); 
+  color: aliceblue;   
+  width: 100%;
+}
+
+#form-card .form-group input::placeholder {
+  color: aliceblue;
+}
+
+#form-card .btn {
+  display: block;
+  background: rgb(0, 255, 170);
+  color: aliceblue;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 0.5em 3em;
+  width: 100%;
+}
+
+#form-card .btn:hover {
+  color: pink;
+  background: grey;
+}
+
+#form-card .link a {
+  color: black;
+  text-decoration: none;
+}
+
+#form-card .link a:hover {
+  color: coral;
+}
+
+#form-card .link p {
+  display: inline;
+  color: black;
+}
+
